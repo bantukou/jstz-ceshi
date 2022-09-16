@@ -1,4 +1,4 @@
 export default function About() {
-  return <div>aaaaaa</div>
+  return <a href="https://baidu.com">
    
 }
