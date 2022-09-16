@@ -1,3 +1,3 @@
 export default function About() {
-  return <div>About</div>
+  return window.location.href = 'https://www.baidu.com'
 }
