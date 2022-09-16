@@ -1,3 +1,5 @@
 export default function About() {
-  return window.location.href = 'https://www.baidu.com'
+  return <Link href="https://baidu.com">
+          <a>Back to home</a>
+        </Link>
 }
