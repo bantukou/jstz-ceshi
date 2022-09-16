@@ -1,5 +1,11 @@
 
-
+import {useEffect} from 'react'
 export default () => {
-  window.location = 'http://www.baidu.com';
+  useEffect(() => {
+        window.location.assign('https://baidu.com/')
+    })
+    return(
+        <>
+        </>
+    )
 }
