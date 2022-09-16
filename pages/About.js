@@ -1,7 +1,6 @@
-
-import Router from 'next/router'
+import { useRouter } from 'next/router'
 
 export default () => {
-  
-  Router.push('htts://baidu.com')
+  const router = useRouter()
+  useRouter.push('htts://baidu.com')
 }
